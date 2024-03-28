@@ -1,3 +1,29 @@
+# twitter (X) 클론코딩 프로젝트
+
+### 📌 사용 기술
+
+- React
+- Firebase
+- TypeScript
+
+### 📌 구현 기능
+
+- Email, Google, Github Social Authentication
+- Tweet CRUD
+- Protected Pages
+- Profile Page
+- File Upload
+- Deploy
+- API Key Security
+
+### 📌 이 프로젝트를 통해 배우게 된 점
+
+- Firebase
+- Cloud Firestore
+- NOSQL Realtime, Query, Filter
+- Firebase Authentication
+- Google Cloud Storage
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,12 +43,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
